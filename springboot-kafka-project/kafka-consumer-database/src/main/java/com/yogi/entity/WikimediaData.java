@@ -13,7 +13,7 @@ public class WikimediaData {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
+    // lob use for huge data.
     @Lob
     private String wikiEventData;
 }

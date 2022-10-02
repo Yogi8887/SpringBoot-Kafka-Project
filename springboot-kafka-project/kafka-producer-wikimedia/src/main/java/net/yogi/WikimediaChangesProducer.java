@@ -22,7 +22,6 @@ public class WikimediaChangesProducer {
 
     public void sendMessage() throws InterruptedException {
         String topic =  "wikimedia_recentChange";
-
         // to read real time stream data from wikimedia , we use event source
         EventHandler eventHandler = new WikimediaChangesHandler(kafkaTemplate,topic);
         String url ="https://stream.wikimedia.org/v2/stream/recentchange";

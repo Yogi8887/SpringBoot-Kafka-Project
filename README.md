@@ -1,2 +1,2 @@
 # SpringBoot-Kafka-Project
-In this project I used Kafka Producer and Kafka Consumer.
+This is the real life project of Wikimedia stream to Database, by using Kafka Producer and Kafka Consumer.
